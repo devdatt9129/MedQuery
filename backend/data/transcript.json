@@ -1,0 +1,231 @@
+{
+  "id": "transcript_001",
+  "title": "Cough and Chest Tightness – Maria Gomez",
+  "patient": "Maria Gomez",
+  "provider": "Dr. Aisha Patel",
+  "encounter_date": "2025-10-22T10:20:00Z",
+  "chief_complaint": "Persistent cough and chest tightness for three weeks",
+  "location": "In-clinic visit",
+  "content": [
+    {
+      "speaker": "Dr. Patel",
+      "time": "00:00",
+      "text": "Good morning, Maria. What brings you in today?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "00:03",
+      "text": "Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it’s been tight in my chest, especially at night."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "00:10",
+      "text": "Got it. Did it start after anything in particular?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "00:12",
+      "text": "Actually, yeah. I moved into a new apartment right after it was repainted, and we adopted a cat the same week. Also, the wildfire smoke last month really irritated my throat."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "00:25",
+      "text": "What tends to make it worse or better?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "00:27",
+      "text": "Running, dusting, or being around the litter box definitely make it worse. Perfumes too. The humidifier and honey-lemon tea help a little."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "00:38",
+      "text": "Is it mostly dry or are you bringing anything up?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "00:40",
+      "text": "Mostly dry, maybe a little clear phlegm in the mornings."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "00:44",
+      "text": "Any fevers, shortness of breath, or wheezing?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "00:46",
+      "text": "Wheezing, yes, especially when I lie down. No fever. Sometimes I feel a tightness but not real pain."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "00:53",
+      "text": "Have symptoms improved, worsened, or stayed the same?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "00:55",
+      "text": "They’ve gotten worse in the last ten days. I’m waking up coughing several nights a week."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "01:02",
+      "text": "Any recent travel or exposures?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "01:04",
+      "text": "I went to Denver two weeks ago, just for the weekend. No sick contacts. At home, the bathroom ceiling has some mold — I told my landlord."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "01:15",
+      "text": "Any medications, allergies, or supplements?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "01:17",
+      "text": "I take sertraline 50 mg daily and a birth control pill. I’m allergic to amoxicillin — gives me a rash."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "01:23",
+      "text": "Have you tried anything for the cough?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "01:25",
+      "text": "Cetirizine, fluticasone nasal spray, tea, humidifier. They help a little, but not enough."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "01:32",
+      "text": "Any side effects or concerns about medications?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "01:34",
+      "text": "Yeah, I had prednisone once for a rash — made me jittery and my heart raced, so I stopped early. I’m nervous about steroids."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "01:42",
+      "text": "Totally fair. Any asthma or allergy history?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "01:44",
+      "text": "I had eczema as a kid but no asthma diagnosis. Dust and pollen make me sneeze sometimes."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "01:49",
+      "text": "Tell me about your living situation and support system."
+    },
+    {
+      "speaker": "Maria",
+      "time": "01:52",
+      "text": "I live with a roommate, my boyfriend helps a lot. No smokers in the house. I work as a kindergarten teacher, so I talk all day — the coughing gets in the way, and I’m tired from poor sleep."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "02:05",
+      "text": "That sounds exhausting. How’s this affecting your exercise or mood?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "02:07",
+      "text": "I’ve had to pause my 5K training. It’s frustrating — I just want to breathe normally again."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "02:12",
+      "text": "Have you ever declined or stopped any treatments for this kind of issue?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "02:14",
+      "text": "My old doctor suggested an inhaled steroid a few years ago, but I didn’t start it because of how prednisone made me feel."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "02:21",
+      "text": "Understood. Let’s check your vitals and lungs."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "02:32",
+      "text": "Vitals are stable — BP 116/72, HR 88, RR 18, Temp 98.2°F, SpO₂ 98%. Mild end-expiratory wheezes at both bases, no crackles."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "02:41",
+      "text": "This could be cough-variant or allergic asthma. We’ll run a few tests to confirm."
+    },
+    {
+      "speaker": "Maria",
+      "time": "02:45",
+      "text": "Okay."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "02:47",
+      "text": "I’ll order spirometry, a CBC with eosinophils, total IgE, and allergy testing. Maybe full pulmonary function tests later."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "02:56",
+      "text": "For now, let’s try a low-dose ICS–formoterol inhaler, used as needed and before exercise. It’s localized — minimal systemic effects."
+    },
+    {
+      "speaker": "Maria",
+      "time": "03:06",
+      "text": "That sounds fine. I just don’t want to feel jittery or gain weight."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "03:09",
+      "text": "Perfectly reasonable. We can start low and monitor."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "03:12",
+      "text": "I’ll also send a letter to your landlord about mold remediation and recommend a HEPA air purifier."
+    },
+    {
+      "speaker": "Maria",
+      "time": "03:18",
+      "text": "Thank you — that’d help."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "03:20",
+      "text": "Any issues with medication cost or insurance?"
+    },
+    {
+      "speaker": "Maria",
+      "time": "03:22",
+      "text": "Sometimes prior authorizations take weeks. If there’s a coupon, that’d be great."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "03:26",
+      "text": "I’ll attach one and handle the paperwork."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "03:28",
+      "text": "Let’s follow up in two weeks to review symptoms and test results. If you have severe shortness of breath, blue lips, or can’t speak full sentences, go to urgent care or the ER."
+    },
+    {
+      "speaker": "Maria",
+      "time": "03:38",
+      "text": "Got it, thanks so much."
+    },
+    {
+      "speaker": "Dr. Patel",
+      "time": "03:40",
+      "text": "You’re welcome — feel better, Maria."
+    }
+  ]
+}

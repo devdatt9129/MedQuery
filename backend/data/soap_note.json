@@ -1,0 +1,75 @@
+{
+  "id": "soap_001",
+  "title": "SOAP Note – Cough and Chest Tightness (Maria Gomez)",
+  "patient": "Maria Gomez",
+  "provider": "Dr. Aisha Patel",
+  "encounter_date": "2025-10-22T10:20:00Z",
+  "chief_complaint": "Persistent cough and chest tightness for three weeks",
+  "subjective": {
+    "history_of_present_illness": "Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is worse at night and early morning and occasionally produces clear sputum. Symptoms are aggravated by cat exposure, dust, cleaning, strong perfumes, and cold air. She reports mild wheezing, no fevers or chest pain. Denies shortness of breath at rest. She moved into a newly painted apartment and adopted a cat shortly before onset. Reports possible mold exposure in bathroom ceiling. She traveled to Denver two weeks ago without sick contacts.",
+    "associated_symptoms": "Wheezing, nighttime cough, fatigue, mild nasal congestion.",
+    "relieving_factors": "Honey-lemon tea, humidifier, antihistamines (cetirizine), and nasal spray provide mild relief.",
+    "past_medical_history": "History of eczema as a child. No known asthma diagnosis.",
+    "medications": [
+      "Sertraline 50 mg daily",
+      "Combined oral contraceptive"
+    ],
+    "allergies": [
+      "Amoxicillin – rash"
+    ],
+    "social_history": "Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure in apartment.",
+    "exercise_and_functional_status": "Had to pause 5K training due to cough and fatigue. Sleep disturbed by coughing.",
+    "psychosocial": "Frustrated by persistent symptoms and disrupted sleep.",
+    "prior_treatments": "Previously declined inhaled corticosteroid due to prior negative experience with oral prednisone (jitteriness and tachycardia)."
+  },
+  "objective": {
+    "vitals": {
+      "blood_pressure": "116/72 mmHg",
+      "heart_rate": "88 bpm",
+      "respiratory_rate": "18 breaths/min",
+      "temperature": "98.2 °F",
+      "oxygen_saturation": "98% on room air"
+    },
+    "physical_exam": {
+      "general": "Alert, oriented, no acute distress.",
+      "lungs": "Mild end-expiratory wheezes bilaterally; no crackles.",
+      "ENT": "Nasal congestion noted; oropharynx clear.",
+      "cardiac": "Regular rate and rhythm, no murmurs.",
+      "skin": "No rash or cyanosis observed."
+    }
+  },
+  "assessment": {
+    "summary": "Subacute cough and mild wheezing, likely due to allergic or cough-variant asthma.",
+    "differential_diagnoses": [
+      "Allergic asthma",
+      "Cough-variant asthma",
+      "Environmental irritant-induced bronchospasm",
+      "Upper airway cough syndrome",
+      "GERD-related cough (less likely)"
+    ],
+    "rationale": "Timing of onset, environmental exposures (cat, dust, mold, paint fumes), and physical findings (wheezing) are consistent with allergic airway inflammation. No evidence of infection or pneumonia."
+  },
+  "plan": {
+    "medications": [
+      "Initiate low-dose inhaled corticosteroid–formoterol combination inhaler as needed and before exercise."
+    ],
+    "diagnostic_tests": [
+      "Spirometry",
+      "CBC with eosinophils",
+      "Total IgE",
+      "Allergy testing",
+      "Consider full pulmonary function testing if symptoms persist"
+    ],
+    "patient_instructions": [
+      "Avoid known triggers (dust, cat dander, strong odors).",
+      "Keep cat out of the bedroom.",
+      "Use a HEPA air purifier.",
+      "Report mold to landlord; landlord letter provided.",
+      "Continue cetirizine as needed.",
+      "Hydrate and use humidifier at night."
+    ],
+    "follow_up": "Reassess symptoms and test results in 2 weeks.",
+    "safety_instructions": "If severe shortness of breath, blue lips, or inability to speak full sentences, seek urgent care or ER immediately.",
+    "insurance_and_access": "Provided manufacturer coupon for inhaler; provider to complete prior authorization paperwork."
+  }
+}

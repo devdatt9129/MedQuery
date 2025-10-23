@@ -1,0 +1,22 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# LangChain (these are already installed)
+langchain==0.3.3
+langchain-community==0.3.2
+langchain-openai==0.2.2
+
+# Chroma integration (compatible with NumPy 1.26)
+langchain-chroma==0.1.4
+chromadb==0.5.10
+
+redis==5.0.1
+numpy==1.26.4
+
+# Optional only if you actually use HF e5
+# sentence-transformers==3.2.1
+# (comment out if you don't need it to avoid pulling torch)
+
+rank-bm25==0.2.2

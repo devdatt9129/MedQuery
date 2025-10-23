@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: ds-backend
+    rootDir: backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_EMBED_MODEL
+        value: text-embedding-3-small
+      - key: EMBEDDINGS_PROVIDER
+        value: openai
+      - key: CHROMA_DIR
+        value: /data/chroma
+      - key: FRONTEND_ORIGIN
+        value: https://your-frontend.vercel.app
+      - key: REDIS_URL
+        sync: false
