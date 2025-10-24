@@ -1,0 +1,1008 @@
+[
+  {
+    "id": 1,
+    "type": "factual",
+    "question": "How long has the cough been going on?",
+    "gold": "About three weeks, worsened over the past ten days.",
+    "pred": "The cough has been going on for about three weeks.",
+    "precision": 0.4,
+    "recall": 0.4444,
+    "f1": 0.4211,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5477,
+    "citations": [
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[01:44] Maria: I had eczema as a kid but no asthma diagnosis. Dust and pollen make me sneeze sometimes.\n[01:49] Dr. Patel: Tell me about your living situation and support system.\n[01:52] Maria: I live"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "soap",
+        "section": "O",
+        "snippet": "{\"vitals\": {\"blood_pressure\": \"116/72 mmHg\", \"heart_rate\": \"88 bpm\", \"respiratory_rate\": \"18 breaths/min\", \"temperature\": \"98.2 \u00b0F\", \"oxygen_saturation\": \"98% on room air\"}, \"physical_exam\": {\"general"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "A",
+        "snippet": "{\"summary\": \"Subacute cough and mild wheezing, likely due to allergic or cough-variant asthma.\", \"differential_diagnoses\": [\"Allergic asthma\", \"Cough-variant asthma\", \"Environmental irritant-induced b"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      }
+    ],
+    "source": "Transcript 00:03, 00:55; SOAP subjective.history_of_present_illness"
+  },
+  {
+    "id": 2,
+    "type": "factual",
+    "question": "What makes the symptoms worse?",
+    "gold": "Running, dusting, being around the litter box, and perfumes; exposure to cat dander, dust, paint fumes, and mold aggravate it.",
+    "pred": "The symptoms are worsened by exposure to cat dander, dust, cleaning, strong perfumes, and cold air.",
+    "precision": 0.5,
+    "recall": 0.4211,
+    "f1": 0.4571,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 6462,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "How long has the cough been going on?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The cough has been going on for about three weeks."
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      }
+    ],
+    "source": "Transcript 00:12, 00:27; SOAP subjective.history_of_present_illness"
+  },
+  {
+    "id": 3,
+    "type": "factual",
+    "question": "What helps relieve the cough?",
+    "gold": "Humidifier, honey-lemon tea, cetirizine, and nasal spray.",
+    "pred": "The cough is relieved by honey-lemon tea, a humidifier, antihistamines (cetirizine), and nasal spray, which provide mild relief.",
+    "precision": 0.4211,
+    "recall": 1.0,
+    "f1": 0.5926,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 6848,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "How long has the cough been going on?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The cough has been going on for about three weeks."
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What makes the symptoms worse?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[01:44] Maria: I had eczema as a kid but no asthma diagnosis. Dust and pollen make me sneeze sometimes.\n[01:49] Dr. Patel: Tell me about your living situation and support system.\n[01:52] Maria: I live"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "A",
+        "snippet": "{\"summary\": \"Subacute cough and mild wheezing, likely due to allergic or cough-variant asthma.\", \"differential_diagnoses\": [\"Allergic asthma\", \"Cough-variant asthma\", \"Environmental irritant-induced b"
+      }
+    ],
+    "source": "Transcript 00:27; SOAP subjective.relieving_factors"
+  },
+  {
+    "id": 4,
+    "type": "factual",
+    "question": "Any wheezing or fever reported?",
+    "gold": "Yes, mild wheezing especially at night; no fever.",
+    "pred": "Wheezing is reported, but there is no fever.",
+    "precision": 0.4286,
+    "recall": 0.375,
+    "f1": 0.4,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5285,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "How long has the cough been going on?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The cough is relieved by honey-lemon tea, a humidifier, antihistamines (cetirizine), and nasal spray, which provide mild relief."
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The cough has been going on for about three weeks."
+      },
+      {
+        "doc_id": "soap",
+        "section": "A",
+        "snippet": "{\"summary\": \"Subacute cough and mild wheezing, likely due to allergic or cough-variant asthma.\", \"differential_diagnoses\": [\"Allergic asthma\", \"Cough-variant asthma\", \"Environmental irritant-induced b"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[01:44] Maria: I had eczema as a kid but no asthma diagnosis. Dust and pollen make me sneeze sometimes.\n[01:49] Dr. Patel: Tell me about your living situation and support system.\n[01:52] Maria: I live"
+      }
+    ],
+    "source": "Transcript 00:46; SOAP subjective.associated_symptoms"
+  },
+  {
+    "id": 5,
+    "type": "factual",
+    "question": "What medications is the patient currently taking?",
+    "gold": "Sertraline 50 mg daily and a combined oral contraceptive.",
+    "pred": "The patient is currently taking sertraline 50 mg daily and a birth control pill.",
+    "precision": 0.4286,
+    "recall": 0.6667,
+    "f1": 0.5217,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 6163,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Any wheezing or fever reported?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What makes the symptoms worse?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "How long has the cough been going on?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      }
+    ],
+    "source": "Transcript 01:17; SOAP subjective.medications"
+  },
+  {
+    "id": 6,
+    "type": "factual",
+    "question": "Any allergies?",
+    "gold": "Allergic to amoxicillin \u2013 causes rash.",
+    "pred": "The patient is allergic to amoxicillin, which causes a rash.",
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6667,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5636,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Any wheezing or fever reported?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What medications is the patient currently taking?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The cough is relieved by honey-lemon tea, a humidifier, antihistamines (cetirizine), and nasal spray, which provide mild relief."
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      }
+    ],
+    "source": "Transcript 01:17; SOAP subjective.allergies"
+  },
+  {
+    "id": 7,
+    "type": "context",
+    "question": "What is the patient's occupation and home environment?",
+    "gold": "Kindergarten teacher; lives with a roommate, supportive boyfriend; no smokers at home; mold in bathroom ceiling; recently repainted apartment with a cat.",
+    "pred": "The patient works as a kindergarten teacher and lives with a roommate. There are no smokers at home, and she has recently experienced repainting and possible mold exposure in her apartment.",
+    "precision": 0.5,
+    "recall": 0.7,
+    "f1": 0.5833,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 6109,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What medications is the patient currently taking?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What makes the symptoms worse?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The patient is currently taking sertraline 50 mg daily and a birth control pill."
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      }
+    ],
+    "source": "Transcript 01:04, 01:52; SOAP subjective.social_history"
+  },
+  {
+    "id": 8,
+    "type": "factual",
+    "question": "Has the patient had asthma before?",
+    "gold": "No formal asthma diagnosis, but history of eczema and allergic tendencies.",
+    "pred": "Here\u2019s what we discussed earlier that matches your request:\n\n- 2025-10-24T17:12:58 User: What medications is the patient currently taking?\n- 2025-10-24T17:12:52 User: Any wheezing or fever reported?\n- 2025-10-24T17:13:04 User: Any allergies?\n- 2025-10-24T17:13:10 Assistant: The patient works as a kindergarten teacher and lives with a roommate. There are no smokers at home, and she has recently experienced repainting and possible mold exposure in her apartment.\n- 2025-10-24T17:12:33 User: How long has the cough been going on?\n- 2025-10-24T17:13:10 User: What is the patient's occupation and home environment?",
+    "precision": 0.0299,
+    "recall": 0.1818,
+    "f1": 0.0513,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 3081,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What medications is the patient currently taking?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Any wheezing or fever reported?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Any allergies?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The patient works as a kindergarten teacher and lives with a roommate. There are no smokers at home, and she has recently experienced repainting and possible mold exposure in her apartment."
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "How long has the cough been going on?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What is the patient's occupation and home environment?"
+      }
+    ],
+    "source": "Transcript 01:44; SOAP subjective.past_medical_history"
+  },
+  {
+    "id": 9,
+    "type": "factual",
+    "question": "What tests were ordered?",
+    "gold": "Spirometry, CBC with eosinophils, total IgE, allergy testing, and possibly full pulmonary function testing later.",
+    "pred": "The tests ordered are:\n\n- Spirometry\n- CBC with eosinophils\n- Total IgE\n- Allergy testing\n- Consider full pulmonary function testing if symptoms persist",
+    "precision": 0.5789,
+    "recall": 0.7857,
+    "f1": 0.6667,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5689,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What medications is the patient currently taking?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "Here\u2019s what we discussed earlier that matches your request:\n\n- 2025-10-24T17:12:58 User: What medications is the patient currently taking?\n- 2025-10-24T17:12:52 User: Any wheezing or fever reported?\n-"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Any wheezing or fever reported?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "O",
+        "snippet": "{\"vitals\": {\"blood_pressure\": \"116/72 mmHg\", \"heart_rate\": \"88 bpm\", \"respiratory_rate\": \"18 breaths/min\", \"temperature\": \"98.2 \u00b0F\", \"oxygen_saturation\": \"98% on room air\"}, \"physical_exam\": {\"general"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      }
+    ],
+    "source": "Transcript 02:47; SOAP plan.diagnostic_tests"
+  },
+  {
+    "id": 10,
+    "type": "factual",
+    "question": "What treatment was initiated?",
+    "gold": "Low-dose inhaled corticosteroid\u2013formoterol inhaler as needed and before exercise.",
+    "pred": "A low-dose inhaled corticosteroid\u2013formoterol combination inhaler was initiated as needed and before exercise.",
+    "precision": 0.7333,
+    "recall": 1.0,
+    "f1": 0.8462,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5815,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What tests were ordered?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What medications is the patient currently taking?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Any wheezing or fever reported?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      }
+    ],
+    "source": "Transcript 02:56; SOAP plan.medications"
+  },
+  {
+    "id": 11,
+    "type": "factual",
+    "question": "Did the patient have any concerns about treatment?",
+    "gold": "Yes, worried about feeling jittery or weight gain from steroids.",
+    "pred": "Yes, the patient expressed concerns about treatment, specifically regarding the use of steroids. She mentioned a previous negative experience with oral prednisone, which made her jittery and caused her heart to race, leading her to stop the medication early. She indicated that she is nervous about using steroids.",
+    "precision": 0.1026,
+    "recall": 0.4,
+    "f1": 0.1633,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 6759,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What treatment was initiated?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What medications is the patient currently taking?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Has the patient had asthma before?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      }
+    ],
+    "source": "Transcript 03:06, 01:34; SOAP subjective.prior_treatments"
+  },
+  {
+    "id": 12,
+    "type": "factual",
+    "question": "Was a follow-up visit planned?",
+    "gold": "Yes, in two weeks to review symptoms and test results.",
+    "pred": "Yes, a follow-up visit was planned in two weeks to review symptoms and test results.",
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1": 0.7692,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5735,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Did the patient have any concerns about treatment?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What treatment was initiated?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What tests were ordered?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      }
+    ],
+    "source": "Transcript 03:28; SOAP plan.follow_up"
+  },
+  {
+    "id": 13,
+    "type": "factual",
+    "question": "What safety instructions were provided?",
+    "gold": "Seek urgent care if severe shortness of breath, blue lips, or inability to speak full sentences.",
+    "pred": "The safety instructions provided were: \"If severe shortness of breath, blue lips, or inability to speak full sentences, seek urgent care or ER immediately.\"",
+    "precision": 0.6957,
+    "recall": 1.0,
+    "f1": 0.8205,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5282,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Did the patient have any concerns about treatment?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Was a follow-up visit planned?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What treatment was initiated?"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      },
+      {
+        "doc_id": "soap",
+        "section": "O",
+        "snippet": "{\"vitals\": {\"blood_pressure\": \"116/72 mmHg\", \"heart_rate\": \"88 bpm\", \"respiratory_rate\": \"18 breaths/min\", \"temperature\": \"98.2 \u00b0F\", \"oxygen_saturation\": \"98% on room air\"}, \"physical_exam\": {\"general"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[03:38] Maria: Got it, thanks so much.\n[03:40] Dr. Patel: You\u2019re welcome \u2014 feel better, Maria."
+      }
+    ],
+    "source": "Transcript 03:28; SOAP plan.safety_instructions"
+  },
+  {
+    "id": 14,
+    "type": "instructional",
+    "question": "What environmental recommendations were given?",
+    "gold": "Avoid triggers (dust, cat, perfumes), use HEPA air purifier, report mold to landlord.",
+    "pred": "The environmental recommendations provided were to keep the cat out of the bedroom, use a HEPA air purifier, and report mold to the landlord, for which a landlord letter was provided.",
+    "precision": 0.375,
+    "recall": 0.6923,
+    "f1": 0.4865,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5181,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What safety instructions were provided?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What is the patient's occupation and home environment?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Was a follow-up visit planned?"
+      },
+      {
+        "doc_id": "soap",
+        "section": "A",
+        "snippet": "{\"summary\": \"Subacute cough and mild wheezing, likely due to allergic or cough-variant asthma.\", \"differential_diagnoses\": [\"Allergic asthma\", \"Cough-variant asthma\", \"Environmental irritant-induced b"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      }
+    ],
+    "source": "Transcript 03:12; SOAP plan.patient_instructions"
+  },
+  {
+    "id": 15,
+    "type": "context",
+    "question": "Was a coupon or cost assistance discussed?",
+    "gold": "Yes, a manufacturer coupon for the inhaler was provided and prior authorization paperwork handled.",
+    "pred": "Yes, a manufacturer coupon for the inhaler was provided, and Dr. Patel mentioned handling the prior authorization paperwork.",
+    "precision": 0.7647,
+    "recall": 0.9286,
+    "f1": 0.8387,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 4802,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Was a follow-up visit planned?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Did the patient have any concerns about treatment?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What treatment was initiated?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      }
+    ],
+    "source": "Transcript 03:22, 03:26; SOAP plan.insurance_and_access"
+  },
+  {
+    "id": 16,
+    "type": "factual",
+    "question": "What did the provider recommend regarding mold?",
+    "gold": "Letter to landlord about mold remediation; advised to report and use HEPA air purifier.",
+    "pred": "The provider recommended reporting mold to the landlord and provided a landlord letter for mold remediation.",
+    "precision": 0.4615,
+    "recall": 0.4615,
+    "f1": 0.4615,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 5822,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The environmental recommendations provided were to keep the cat out of the bedroom, use a HEPA air purifier, and report mold to the landlord, for which a landlord letter was provided."
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What environmental recommendations were given?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The patient works as a kindergarten teacher and lives with a roommate. There are no smokers at home, and she has recently experienced repainting and possible mold exposure in her apartment."
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      }
+    ],
+    "source": "Transcript 03:12; SOAP plan.patient_instructions"
+  },
+  {
+    "id": 17,
+    "type": "context",
+    "question": "How did the patient feel emotionally about her symptoms?",
+    "gold": "Frustrated, tired, and anxious due to persistent cough and disrupted sleep.",
+    "pred": "The patient felt frustrated by her persistent symptoms and the disrupted sleep caused by coughing.",
+    "precision": 0.3846,
+    "recall": 0.5,
+    "f1": 0.4348,
+    "supported": 0,
+    "status": 200,
+    "error": "",
+    "latency_ms": 4912,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "Did the patient have any concerns about treatment?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "Yes, the patient expressed concerns about treatment, specifically regarding the use of steroids. She mentioned a previous negative experience with oral prednisone, which made her jittery and caused he"
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What makes the symptoms worse?"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[01:44] Maria: I had eczema as a kid but no asthma diagnosis. Dust and pollen make me sneeze sometimes.\n[01:49] Dr. Patel: Tell me about your living situation and support system.\n[01:52] Maria: I live"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "\"allergies\": [\"Amoxicillin \u2013 rash\"], \"social_history\": \"Lives with roommate; boyfriend is supportive. Works as a kindergarten teacher. No smokers at home. Recent repainting and possible mold exposure "
+      }
+    ],
+    "source": "Transcript 01:52, 02:07; SOAP subjective.psychosocial"
+  },
+  {
+    "id": 18,
+    "type": "instructional",
+    "question": "What should the patient do if symptoms worsen suddenly?",
+    "gold": "Go to urgent care or ER if severe shortness of breath, blue lips, or can\u2019t speak full sentences.",
+    "pred": "If symptoms worsen suddenly, the patient should seek urgent care or go to the ER immediately, especially if experiencing severe shortness of breath, blue lips, or inability to speak full sentences.",
+    "precision": 0.5926,
+    "recall": 0.8889,
+    "f1": 0.7111,
+    "supported": 1,
+    "status": 200,
+    "error": "",
+    "latency_ms": 7421,
+    "citations": [
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What makes the symptoms worse?"
+      },
+      {
+        "doc_id": "chat",
+        "section": "assistant",
+        "snippet": "The safety instructions provided were: \"If severe shortness of breath, blue lips, or inability to speak full sentences, seek urgent care or ER immediately.\""
+      },
+      {
+        "doc_id": "chat",
+        "section": "user",
+        "snippet": "What medications is the patient currently taking?"
+      },
+      {
+        "doc_id": "soap",
+        "section": "P",
+        "snippet": "{\"medications\": [\"Initiate low-dose inhaled corticosteroid\u2013formoterol combination inhaler as needed and before exercise.\"], \"diagnostic_tests\": [\"Spirometry\", \"CBC with eosinophils\", \"Total IgE\", \"All"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:00] Dr. Patel: Good morning, Maria. What brings you in today?\n[00:03] Maria: Hi, Dr. Patel. I've had this cough for about three weeks now, and lately it\u2019s been tight in my chest, especially at nig"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[02:41] Dr. Patel: This could be cough-variant or allergic asthma. We\u2019ll run a few tests to confirm.\n[02:45] Maria: Okay.\n[02:47] Dr. Patel: I\u2019ll order spirometry, a CBC with eosinophils, total IgE, a"
+      },
+      {
+        "doc_id": "soap",
+        "section": "S",
+        "snippet": "{\"history_of_present_illness\": \"Maria Gomez, a 34-year-old female, presents with a dry cough and intermittent chest tightness for approximately three weeks, worsening over the past 10 days. Cough is w"
+      },
+      {
+        "doc_id": "tx",
+        "section": null,
+        "snippet": "[00:53] Dr. Patel: Have symptoms improved, worsened, or stayed the same?\n[00:55] Maria: They\u2019ve gotten worse in the last ten days. I\u2019m waking up coughing several nights a week.\n[01:02] Dr. Patel: Any "
+      }
+    ],
+    "source": "Transcript 03:28; SOAP plan.safety_instructions"
+  }
+]

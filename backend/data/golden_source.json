@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "question": "How long has the cough been going on?",
+    "gold_answer": "About three weeks, worsened over the past ten days.",
+    "source": "Transcript 00:03, 00:55; SOAP subjective.history_of_present_illness",
+    "type": "factual"
+  },
+  {
+    "id": 2,
+    "question": "What makes the symptoms worse?",
+    "gold_answer": "Running, dusting, being around the litter box, and perfumes; exposure to cat dander, dust, paint fumes, and mold aggravate it.",
+    "source": "Transcript 00:12, 00:27; SOAP subjective.history_of_present_illness",
+    "type": "factual"
+  },
+  {
+    "id": 3,
+    "question": "What helps relieve the cough?",
+    "gold_answer": "Humidifier, honey-lemon tea, cetirizine, and nasal spray.",
+    "source": "Transcript 00:27; SOAP subjective.relieving_factors",
+    "type": "factual"
+  },
+  {
+    "id": 4,
+    "question": "Any wheezing or fever reported?",
+    "gold_answer": "Yes, mild wheezing especially at night; no fever.",
+    "source": "Transcript 00:46; SOAP subjective.associated_symptoms",
+    "type": "factual"
+  },
+  {
+    "id": 5,
+    "question": "What medications is the patient currently taking?",
+    "gold_answer": "Sertraline 50 mg daily and a combined oral contraceptive.",
+    "source": "Transcript 01:17; SOAP subjective.medications",
+    "type": "factual"
+  },
+  {
+    "id": 6,
+    "question": "Any allergies?",
+    "gold_answer": "Allergic to amoxicillin – causes rash.",
+    "source": "Transcript 01:17; SOAP subjective.allergies",
+    "type": "factual"
+  },
+  {
+    "id": 7,
+    "question": "What is the patient's occupation and home environment?",
+    "gold_answer": "Kindergarten teacher; lives with a roommate, supportive boyfriend; no smokers at home; mold in bathroom ceiling; recently repainted apartment with a cat.",
+    "source": "Transcript 01:04, 01:52; SOAP subjective.social_history",
+    "type": "context"
+  },
+  {
+    "id": 8,
+    "question": "Has the patient had asthma before?",
+    "gold_answer": "No formal asthma diagnosis, but history of eczema and allergic tendencies.",
+    "source": "Transcript 01:44; SOAP subjective.past_medical_history",
+    "type": "factual"
+  },
+  {
+    "id": 9,
+    "question": "What tests were ordered?",
+    "gold_answer": "Spirometry, CBC with eosinophils, total IgE, allergy testing, and possibly full pulmonary function testing later.",
+    "source": "Transcript 02:47; SOAP plan.diagnostic_tests",
+    "type": "factual"
+  },
+  {
+    "id": 10,
+    "question": "What treatment was initiated?",
+    "gold_answer": "Low-dose inhaled corticosteroid–formoterol inhaler as needed and before exercise.",
+    "source": "Transcript 02:56; SOAP plan.medications",
+    "type": "factual"
+  },
+  {
+    "id": 11,
+    "question": "Did the patient have any concerns about treatment?",
+    "gold_answer": "Yes, worried about feeling jittery or weight gain from steroids.",
+    "source": "Transcript 03:06, 01:34; SOAP subjective.prior_treatments",
+    "type": "factual"
+  },
+  {
+    "id": 12,
+    "question": "Was a follow-up visit planned?",
+    "gold_answer": "Yes, in two weeks to review symptoms and test results.",
+    "source": "Transcript 03:28; SOAP plan.follow_up",
+    "type": "factual"
+  },
+  {
+    "id": 13,
+    "question": "What safety instructions were provided?",
+    "gold_answer": "Seek urgent care if severe shortness of breath, blue lips, or inability to speak full sentences.",
+    "source": "Transcript 03:28; SOAP plan.safety_instructions",
+    "type": "factual"
+  },
+  {
+    "id": 14,
+    "question": "What environmental recommendations were given?",
+    "gold_answer": "Avoid triggers (dust, cat, perfumes), use HEPA air purifier, report mold to landlord.",
+    "source": "Transcript 03:12; SOAP plan.patient_instructions",
+    "type": "instructional"
+  },
+  {
+    "id": 15,
+    "question": "Was a coupon or cost assistance discussed?",
+    "gold_answer": "Yes, a manufacturer coupon for the inhaler was provided and prior authorization paperwork handled.",
+    "source": "Transcript 03:22, 03:26; SOAP plan.insurance_and_access",
+    "type": "context"
+  },
+  {
+    "id": 16,
+    "question": "What did the provider recommend regarding mold?",
+    "gold_answer": "Letter to landlord about mold remediation; advised to report and use HEPA air purifier.",
+    "source": "Transcript 03:12; SOAP plan.patient_instructions",
+    "type": "factual"
+  },
+  {
+    "id": 17,
+    "question": "How did the patient feel emotionally about her symptoms?",
+    "gold_answer": "Frustrated, tired, and anxious due to persistent cough and disrupted sleep.",
+    "source": "Transcript 01:52, 02:07; SOAP subjective.psychosocial",
+    "type": "context"
+  },
+  {
+    "id": 18,
+    "question": "What should the patient do if symptoms worsen suddenly?",
+    "gold_answer": "Go to urgent care or ER if severe shortness of breath, blue lips, or can’t speak full sentences.",
+    "source": "Transcript 03:28; SOAP plan.safety_instructions",
+    "type": "instructional"
+  }
+ 
+]
